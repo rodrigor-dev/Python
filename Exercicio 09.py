@@ -1,4 +1,4 @@
-n1 = int(input('Digite um valor em metros: '))
-cm = n1 * 100
-mm = n1 * 1000
-print(f'Você digitou {n1} metros que possui {cm} centrimetros ou tambem {mm} milimetros!')
+medida = float(input('Uma distãncia em metros: '))
+cm = medida * 100
+mm = medida * 1000
+print(f'A medida de {medida}m que possui {cm:.0f} centrimetros ou tambem {mm:.0f} milimetros!')
