@@ -1,3 +1,3 @@
-n1 = float(input('Digite quantos R$ (Reais) você tem em sua carteira: '))
-dolares = n1/(3.27)
-print(f'Você tem R${n1} e com esse valor consegue comprar US${dolares}!')
+real = float(input('Quantos R$ (Reais) você tem em sua carteira? R$'))
+dolar = real/(3.27)
+print(f'Com R${real:.2f} você consegue comprar US${dolar:.2f}!')
